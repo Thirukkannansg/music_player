@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+
+h3, h4 {
+    font-weight: 500;
+    color: rgb(100, 100, 100)
+}
+
+.App {
+    // background: linear-gradient(to top right, #ff9d9c, #ffcea6);
+    // padding: 4rem 0;
+    transition: all 0.5s ease;
+}
+
+.library-active {
+    margin-left: 20%;
+}
+
+h1, h2, h3 {
+    color: rgb(54, 54, 54)
+}
+
+
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
+// @import "./dark-mode"

@@ -1,0 +1,25 @@
+.App {
+    background-color: #222222;
+}
+
+nav {
+
+    button {
+        background: transparent;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        border: 2px solid #fff;
+        padding: 0.5rem;
+        transition: 0.3s ease;
+        
+        &:hover {
+            background: rgb(65, 65, 65);
+            color: #fff;
+        }
+    }
+}
+
+h1, h2 {
+    color: #fff;
+}
